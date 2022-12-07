@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    
+
+  <section class="map_bg" data-display="show">
+
+
+    <section class="map_layout">
+        <input id="n1" name="pathway" type="radio" checked>
+        <input id="n2" name="pathway" type="radio" value="about_me">
+        <input id="n3" name="pathway" type="radio" value="studies">
+        <input id="n4" name="pathway" type="radio" value="movies">
+
+        <aside class="clouds_pack">
+            <div class="cloud large"></div>
+            <div class="cloud medium"></div>
+            <div class="cloud short"></div>
+            <div class="cloud large"></div>
+        </aside>
+
+        <aside class="clouds_pack second">
+            <div class="cloud medium"></div>
+            <div class="cloud short"></div>
+            <div class="cloud large"></div>
+        </aside>
+
+
+        <div class="mountain">
+            <img class="big" src="./imgs/yellow.png" alt="">
+            <img class="small right" src="./imgs/blue.png" alt="">
+        </div>
+
+        <div class="mountain">
+            <img class="big " src="./imgs/blue.png" alt="">
+            <img class="small right" src="./imgs/yellow.png" alt="">
+            <img class="mid left" src="./imgs/purple.png" alt="">
+        </div>
+
+
+        <div class="mountain">
+            <img class="mid" src="./imgs/green.png" alt="">
+            <img class="small right" src="./imgs/blue.png" alt="">
+            <img class="small left" src="./imgs/purple.png" alt="">
+        </div>
+
+
+        <div class="mountain">
+            <img class="big" src="./imgs/green.png" alt="">
+            <img class="mid right" src="./imgs/purple.png" alt="">
+        </div>
+
+
+
+        <section class="path_container">
+
+
+            <label for="n1"></label>
+            <label for="n2"></label>
+            <label for="n3"></label>
+            <label class="last" for="n4"></label>
+            <img class="pj" src="./imgs/paper_mario.png" alt="">
+
+            <div class="titles">
+                <h2 class="first">Inicio</h2>
+                <h2>Sobre mi</h2>
+                <h2>Estudios</h2>
+                <h2>Gustos</h2>
+                <h2>Calculadora de creditos</h2>
+            </div>
+
+            <button class="play_icon"><img src="./imgs/play.png"></button>
+
+            <button class="cta_credits">Calcular creditos</button>
+
+        </section>
+
+
+
+        <div class="comment_box">
+            <button>?</button>
+            <p>Esta tarea estuvo muy divertida de realizar</p>
+        </div>
+
+
+        <div class="credits_container" data-display="false">
+
+
+            <div class="inputs_container">
+
+                <label class="label_title">Ingrese total de creditos</label>
+                <input id="in" type="number">
+
+                <div class="checkbox_container">
+                    <label for="mate">Propedeutico</label>
+                    <input type="checkbox" id="mate">
+                    <label for="eng">Ingles</label>
+                    <input type="checkbox" id="eng">
+                </div>
+
+                <button id="calc">Calcular</button>
+            </div>
+
+            <div class="result_container">
+                <span id="resultBox"><span class="space">$</span>0</span>
+            </div>
+
+            <button id="exit">X</button>
+        </div>
+
+
+    </section>
+
+
+  </section>
+
+  <section class="about_me" data-display="false">
+    
+    <div class="content">
+        <header class="spikes">
+            <h2>SOBRE MI</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+
+        <div class="info">
+
+            <div class="contact_section">
+
+                <ul>
+                    <li class="list gmail">
+                        <a href="https://mail.google.com/" target="_blank">
+                            <div class="cover_img">
+                                <img src="./imgs/gmail.png" alt="">
+                            </div>
+    
+                            <div class="header">
+                                <h3>GMAIL</h3>
+                                <p>javier.penaperez08@gmail.com</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list sapp">
+                        <a href="https://api.whatsapp.com/send/?phone=18098806265&text&app_absent=0" target="_blank">
+                            <div class="cover_img">
+                                <img src="./imgs/whatsapp.png" alt="">
+                            </div>
+    
+                            <div class="header">
+                                <h3>Whatsapp</h3>
+                                <p>Javier Peña Perez</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list tele">
+                        <a href="https://t.me/JPP020" target="_blank">
+                            <div class="cover_img">
+                                <img src="./imgs/telegram.png" alt="">
+                            </div>
+    
+                            <div class="header">
+                                <h3>Telegram</h3>
+                                <p>Javier</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="me_section">
+                <div class="pfp">
+                    <h3>Javier Pena Perez</h3>
+                    <h4>Desarrollador Junior</h4>
+
+                    <div class="cover">
+                        <img src="./imgs/pfp.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="objetives">
+                    <h3>Objetivos</h3>
+                    <p>Soy un desarrollador web en aprendizaje con los objetivos de desempeñar, ofrecer y desarrollar proyectos nuevos de cualquier escala para alcanzar la mayor satisfacción de la clientela y de la organización, utilizando herramientas y tecnologías novedosas para un mayor desarrollo profesional en el campo del software.</p>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </div>
+
+  </section>
+
+  <section class="studies" data-display="false">
+
+    <div class="content">
+        <header class="spikes">
+            <h2>Estudios</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+        <div class="info">
+            <div class="col">
+
+                <h2>Politecnico Cristo Obrero</h2>
+
+                <h3>Técnico - Des. y Adm. de Aplicaciones Informáticas | 2008 - 2021</h3>
+
+                <h4>Conocimientos</h4>
+
+                <ul>
+                    <li>Adm. De base de datos</li>
+                    <li>Análisis y Diseño de Sistemas Informáticos</li>
+                    <li>Diseño y Desarrollo Web</li>
+                </ul>
+
+                <h2>Centro Tecnologico Comunitario (CTC)</h2>
+
+                <h3>Soporte Tecnico | 2020 - 2021</h3>
+
+                <h4>Conocimientos</h4>
+
+                <ul>
+                    <li>Diseño Web</li>
+                    <li>Introduccion a Mecatronica con arduino</li>
+                    <li>Microsoft Office</li>
+                </ul>
+
+            </div>
+
+            <div class="col">
+                <h2>Idiomas</h2>
+                <h3>Ingles: <span class="bandera"><img src="./imgs/united-states.png" width="60px"> Interemedio</span></h3>
+
+                <img src="./imgs/mario.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+  </section>
+
+  <section class="movies" data-display="false">
+
+    <div class="content">
+        <header class="spikes">
+            <h2>Mis 3 peliculas favoritas</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+        <div class="info">
+            <div class="movie_container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/bwud-KizpXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="comment">
+                    <h2>Comentario:</h2>
+
+                    <p>"Siempre a tu lado" es mi pelicula en homenaje a una historia muy linda de la relacion entre un perro y su dueño con un final bastante emotivo, lo cual la hace más preferidas de mi parte.</p>
+                </div>
+            </div>
+    
+            <div class="movie_container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/IdGmqtePhkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="comment">
+                    <h2>Comentario:</h2>
+                    <p>Jurassic World es la pelicula que más me ha gustado de toda la franquicia de Jurassic Park.</p>
+                </div>
+            </div>
+    
+            <div class="movie_container">
+                
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/-OCNJgysa6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="comment">
+                    <h2>Comentario:</h2>
+                    <p>Ghost Rider es una pelicula muy íconica de mi infancia, la disfrute mucho con los diferentes efectos que te</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+  </section>
+
+  
+</body>
+</html>
